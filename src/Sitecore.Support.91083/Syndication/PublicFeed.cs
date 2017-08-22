@@ -1,10 +1,9 @@
 ﻿namespace Sitecore.Support.Syndication
 {
   using Sitecore.Data.Items;
-  using Sitecore.Syndication;
   using System.Collections.Generic;
   using System.Linq;
-  public class CustomFeed : PublicFeed
+  public class PublicFeed : Sitecore.Syndication.PublicFeed
   {
     // Methods
     public override IEnumerable<Item> GetSourceItems()
